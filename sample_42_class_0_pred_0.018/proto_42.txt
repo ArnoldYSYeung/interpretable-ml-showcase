@@ -1,0 +1,3 @@
+Index: 58    Weight: 0.53
+Index: 2569    Weight: 0.21
+Index: 2727    Weight: 0.26
