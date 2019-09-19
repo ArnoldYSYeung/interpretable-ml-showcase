@@ -57,6 +57,10 @@ Looking at the most similar images (Prototypes) classified as an African elephan
 
 <img src="https://github.com/ArnoldYSYeung/interpretable_ml_showcase/blob/master/sample_361_class_1_pred_0.11/proto_361_2123.png" alt="An African Elephant" align="middle" width="400"/><img src="https://github.com/ArnoldYSYeung/interpretable_ml_showcase/blob/master/sample_361_class_1_pred_0.11/proto_361_2727.png" alt="An African Elephant" align="middle" width="400"/><img src="https://github.com/ArnoldYSYeung/interpretable_ml_showcase/blob/master/sample_361_class_1_pred_0.11/proto_361_1677.png" alt="An African Elephant" align="middle" width="400"/>
 
-Both of these explanations may provide more insight into why the ML agent classified these as African elephants instead of the ground-truth labelled Indian elephants.  **(Remember, an ML agent makes classifications on more than 1 feature.)**  Perhaps the ears and head shape of these elephants resemble African elephants more than Indian elephants, and African elephants tend to be more social (at least in the training images).  
+Both of these explanations may provide more insight into why the ML agent classified these as African elephants instead of the ground-truth labelled Indian elephants.  **(Remember, an ML agent makes classifications on more than one feature of the image.)**  Perhaps the ears and head shape of these elephants resemble African elephants more than Indian elephants, and African elephants tend to be more social (at least in the training images).  
 
 In fact, the ground-truth label might have been wrong!  From my 5 minute experience of distinguishing elephants, these elephants do in fact look more like African elephants.
+
+##  Code
+
+Awesome, where's the code so I can copy this into my own ML algorithm?  Unfortunately, the code for generating these images are part of a larger project which is not yet complete, so I can't release it yet.  However, feel free to Google how to implement these explainers.  There's plenty of resources out there!
