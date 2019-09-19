@@ -53,7 +53,7 @@ Looking at the LIME explanation, we see that the regions in red are most critica
 
 <img src="https://github.com/ArnoldYSYeung/interpretable_ml_showcase/blob/master/sample_361_class_1_pred_0.11/lime_361.png" alt="An African Elephant" align="middle" width="400"/>
 
-Looking at the most similar images (Prototypes) classified as an African elephant, we see that these images contain two elephants (yes, look more closely at the 3rd one).  [Perhaps the ML agent identified African elephants as more social.](https://medium.com/elp-rumbles/african-and-asian-elephants-exhibit-distinct-social-behavior-patterns-d124d4c58604) 
+Looking at the most similar images (Prototypes) classified as an African elephant, we see that these images contain two elephants (yes, look more closely at the 3rd one).  [Perhaps the ML agent identified African elephants as more social.](https://medium.com/elp-rumbles/african-and-asian-elephants-exhibit-distinct-social-behavior-patterns-d124d4c58604) Or even images of African elephants are naturally surrounded by a white border (see 1st and 3rd image).
 
 <img src="https://github.com/ArnoldYSYeung/interpretable_ml_showcase/blob/master/sample_361_class_1_pred_0.11/proto_361_2123.png" alt="An African Elephant" align="middle" width="400"/><img src="https://github.com/ArnoldYSYeung/interpretable_ml_showcase/blob/master/sample_361_class_1_pred_0.11/proto_361_2727.png" alt="An African Elephant" align="middle" width="400"/><img src="https://github.com/ArnoldYSYeung/interpretable_ml_showcase/blob/master/sample_361_class_1_pred_0.11/proto_361_1677.png" alt="An African Elephant" align="middle" width="400"/>
 
@@ -63,7 +63,7 @@ In fact, the ground-truth label might have been wrong!  From my 5 minute experie
 
 ##  Code
 
-Awesome, where's the code so I can copy this into my own ML algorithm?  Unfortunately, the code for generating these images are part of a larger project which is not yet complete, so I can't release it yet.  However, feel free to Google how to implement these explainers.  There's plenty of resources out there!
+Awesome, where's the code so I can copy this into my own ML algorithm?  Unfortunately, the code for generating these images is part of a larger project which is not yet complete, so I can't release it yet.  However, feel free to Google how to implement these explainers.  There's plenty of resources out there!
 
 ##  Conclusion
 Different explainers can provide different types of explanations, which can provide different insights into the behaviour of an ML agent.  However, many of these explanations currently still require some level of human interpretation and analysis to identify the root cause of a certain behaviours.
