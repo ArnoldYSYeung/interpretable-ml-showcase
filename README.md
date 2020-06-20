@@ -63,7 +63,14 @@ In fact, the ground-truth label might have been wrong!  From my 5 minute experie
 
 ##  Code
 
-Awesome, where's the code so I can copy this into my own ML algorithm?  Unfortunately, the code for generating these images is part of a larger project which is not yet complete, so I can't release it yet.  However, feel free to Google how to implement these explainers.  There's plenty of resources out there!
+Awesome, where's the code so I can copy this into my own ML algorithm?  Unfortunately, the code for generating these images is part of a larger project which is not yet complete, so I can't release it yet.  
+
+The following libraries are used to implement the explainers used:
+- <a href="https://github.com/albermax/innvestigate">iNNvestigate 1.0.8.3</a>
+- <a href="https://github.com/IBM/AIX360/">AIX360 0.1.0</a>
+- <a href="https://github.com/marcotcr/lime">LIME 0.1.1.36</a>
+
+These explainers are implemented into a Convolutional Neural Network built using <a href="https://keras.io/">Keras 2.3</a> with a Tensorflow backend.
 
 ##  Conclusion
 Different explainers can provide different types of explanations, which can provide different insights into the behaviour of an ML agent.  However, many of these explanations currently still require some level of human interpretation and analysis to identify the root cause of a certain behaviours.
