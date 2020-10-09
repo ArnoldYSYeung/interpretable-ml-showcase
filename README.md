@@ -65,6 +65,8 @@ In fact, the ground-truth label might have been wrong!  From my 5 minute experie
 
 Awesome, where's the code so I can copy this into my own ML algorithm?  Unfortunately, the code for generating these images is part of a larger project which is not yet complete, so I can't release it yet.  
 
+<strong>2020-10-09 EDIT</strong>: The code for generating these explanation images may now be found <a href="https://github.com/ArnoldYSYeung/RL4XAI">here</a>. 
+
 The following libraries are used to implement the explainers used:
 - <a href="https://github.com/albermax/innvestigate">iNNvestigate 1.0.8.3</a>
 - <a href="https://github.com/IBM/AIX360/">AIX360 0.1.0</a>
